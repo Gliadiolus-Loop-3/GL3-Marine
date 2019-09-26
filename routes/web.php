@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return "Hello Laravel";
+    return view ('template');
 });
+
+
